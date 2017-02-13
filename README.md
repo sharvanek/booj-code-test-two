@@ -38,4 +38,7 @@ This assignment is expect to take a few hours. We ask that you do not spend too 
 
 ## Running the code
 Download the code and run the following:
+```
 python XmlToCsv.py
+```
+A csv file will be generated in the current working directory
