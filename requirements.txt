@@ -1,5 +1,5 @@
 The following libraries were needed to complete the code test:
 - urllib2
 - xml.etree.ElementTree
-- 3. pandas
-- 4. os
+- pandas
+- os
