@@ -9,6 +9,7 @@ def parse_xml(url):
     :param url: XML feed to parse
     :return:
     """
+    
     # Open the URL to retrieve a file like handle to the data
     # TODO: Add error handling if the URL cannot be requested
     xml_feed_file = urllib2.urlopen(url)
@@ -130,10 +131,11 @@ def output_to_csv(data_frame):
     :param data_frame: Dataframe to output to csv
     :return:
     """
+    
     # Get current working directory
     cwd = os.getcwd()
 
-    # Print columns to current working directory
+    # Print csv to current working directory
     # Remove numbered index
     # TODO: Change where the file is written to where it needs to go
     data_frame.to_csv('{current_working_dir}/{filename}'.format(current_working_dir = cwd, filename = 'listing.csv'), index=False)
