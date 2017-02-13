@@ -35,6 +35,7 @@ def parse_xml(url):
     # Bedrooms
     # Bathrooms
     # Description
+    # TODO: Handle none values. Not sure if empty values in csv are better than say 0 
     all_elements = xml_etree.findall('.//MlsId')
     all_elements.extend(xml_etree.findall('.//MlsName'))
     all_elements.extend(xml_etree.findall('.//DateListed'))
