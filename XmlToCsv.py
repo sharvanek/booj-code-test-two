@@ -130,7 +130,6 @@ def output_to_csv(data_frame):
     :param data_frame: Dataframe to output to csv
     :return:
     """
-
     # Get current working directory
     cwd = os.getcwd()
 
