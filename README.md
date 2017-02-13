@@ -41,4 +41,4 @@ Download the code and run the following:
 ```
 python XmlToCsv.py
 ```
-A csv file will be generated in the current working directory
+A csv file will be generated for http://syndication.enterprise.websiteidx.com/feeds/BoojCodeTest.xml and written to the current working directory
