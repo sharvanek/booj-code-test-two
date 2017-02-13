@@ -108,7 +108,7 @@ def manipulate_data_frame(data_frame):
     # Limit the description field to 200 characters
     # Filtering on and then 200 characters could potentially make it seem like the above filter did not work
     # TODO: Figure out if spaces count as characters
-    # TODO: Fix warnings but not necesscary as original Dataframe is being overwritten each time so it does not matter if copy or view is returnedi
+    # TODO: Fix warnings but not necesscary as original Dataframe is being overwritten each time so it does not matter if copy or view is returned
     # Seem to be false positive warnings based on reading this http://pandas-docs.github.io/pandas-docs-travis/indexing.html
     data_frame['Description'] = data_frame['Description'].str[:200]
 
