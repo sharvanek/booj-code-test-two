@@ -35,3 +35,7 @@ Our goal in this test is to see how you will approach the processing of this fee
 ## Time considerations
 
 This assignment is expect to take a few hours. We ask that you do not spend too much time on this solution. If you are stuck or have questions, feel free to reach out and we will answer quickly. 
+
+## Running the code
+Download the code and run the following:
+python XmlToCsv.py
