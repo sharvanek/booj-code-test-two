@@ -138,6 +138,7 @@ def output_to_csv(data_frame):
     # Print csv to current working directory
     # Remove numbered index
     # TODO: Change where the file is written to where it needs to go
+    # TODO: Make this more modular by passing in the filepath as all files may not need to go to the same place
     data_frame.to_csv('{current_working_dir}/{filename}'.format(current_working_dir = cwd, filename = 'listing.csv'), index=False)
 
 def main():
